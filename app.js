@@ -22,3 +22,12 @@ function desplegarLista() {
     }
     return;
 }
+
+function sortearAmigo() {
+    let lista = document.getElementById('listaAmigos');
+    let resultado = document.getElementById('resultado')
+    lista.innerHTML = "";
+    let indice = Math.floor(Math.random()*amigos.length);
+    let ganador = amigos[indice]
+resultado.innerHTML = `Tu amigo secreto es ${ganador}`
+}
