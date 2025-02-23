@@ -12,3 +12,13 @@ function agregarAmigo() {
         return;             
     }    
 }
+
+function desplegarLista() {
+    let lista = document.getElementById('listaAmigos');
+    lista.innerHTML = "";
+    for (let i = 0; i < amigos.length; i++) {
+        const element = amigos[i];
+        lista.innerHTML += '<li>' + element + '</li>';
+    }
+    return;
+}
