@@ -9,6 +9,7 @@ function agregarAmigo() {
         amigos.push (document.getElementById('amigo').value);
         document.getElementById('amigo').value = "";
         desplegarLista();
+        resultado.innerHTML = ""
         return;             
     }    
 }
@@ -29,5 +30,8 @@ function sortearAmigo() {
     lista.innerHTML = "";
     let indice = Math.floor(Math.random()*amigos.length);
     let ganador = amigos[indice]
-resultado.innerHTML = `Tu amigo secreto es ${ganador}`
+    resultado.innerHTML = `Tu amigo secreto es ${ganador}`
+    document.getElementById('amigo').value = "";
+    amigos = []
+    return;
 }
