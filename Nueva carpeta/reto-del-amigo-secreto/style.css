@@ -1,13 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Emblema+One&family=Tektur:wght@400..900&display=swap');
-
-
 :root {
-    --color-primary: #0234e9;
-    --color-secondary: #1065d4;
-    --color-tertiary: #13233ab0;
-    --color-button: #11a3f8;
-    --color-button-hover: #000000;
-    --color-text: #fffb00;
+    --color-primary: #4B69FD;
+    --color-secondary: #FFF9EB;
+    --color-tertiary: #C4C4C4;
+    --color-button: #fe652b;
+    --color-button-hover: #e55720;
+    --color-text: #444444;
     --color-white: #FFFFFF;
 }
 
@@ -40,19 +37,14 @@ body {
     justify-content: center;
     align-items: center;
     padding: 40px 0 0;
-    gap: 30px;
-}
-
-.header-banner-img{
-    width: 200px;
 }
 
 /* Sección de entrada */
 .input-section {
     flex: 60%;
     background-color: var(--color-secondary);
-    border: 3px solid #000000;
-    border-radius: 150px 0 0 0;
+    border: 1px solid #000;
+    border-radius: 64px 64px 0 0;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -63,17 +55,17 @@ body {
 /* Títulos */
 .main-title {
     font-size: 48px;
-    font-family: "Emblema One", serif;
+    font-family: "Merriweather", serif;
     font-weight: 900;
     font-style: italic;
     color: var(--color-white);
 }
 
 .section-title {
-    font-family: "Tektur", serif;
+    font-family: "Inter", serif;
     font-size: 36px;
     font-weight: 700;
-    color: #000;
+    color: var(--color-primary);
     margin: 10px 0;
     text-align: center;
 }
@@ -124,14 +116,13 @@ button {
 }
 
 .button-add {
-    background-color: var(--color-button);
-    color: #FFFFFF;
+    background-color: var(--color-tertiary);
+    color: var(--color-text);
     border-radius: 0 25px 25px 0;
 }
 
 .button-add:hover {
-    background-color: #000000;
-    color:#fffb00
+    background-color: #a1a1a1;
 }
 
 /* Listas */
@@ -145,7 +136,7 @@ ul {
 
 .result-list {
     margin-top: 15px;
-    color: #00ff9d;
+    color: #05DF05;
     font-size: 22px;
     font-weight: bold;
     text-align: center;
@@ -168,5 +159,4 @@ ul {
 
 .button-draw:hover {
     background-color: var(--color-button-hover);
-    color:#fffb00
 }

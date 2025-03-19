@@ -1,6 +1,6 @@
 <h1 align = "center">EL AMIGO SECRETO
 
-<p>Éste juego te ayudará a escoger uno de tus amigos de forma aleatoria, en lugar de decidirlo tú, evitando así, herir sus sentimientos.</p>
+<p>Éste juego te ayudará a escoger uno de tus amigos de forma aleatoria, en lugar de decidirlo tú, evitando así, herir sentimientos.</p>
 
 Sólo tienes que escribir los nombres de tus amigos de uno a uno, hacer click en añadir y quedan agregados a la lista:</p>
 
