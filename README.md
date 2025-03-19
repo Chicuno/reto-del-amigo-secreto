@@ -9,7 +9,8 @@ Sólo tienes que escribir los nombres de tus amigos de uno a uno, hacer click en
 
 Cuando ya estén todos, haz click en sortear amigo y el juego escogerá por tí.
 
-![Sortear amigos](https://github.com/user-attachments/assets/3c1f5e91-613b-44e4-8c3e-499fa069e432)
+![Sortear amigos](https://github.com/user-attachments/assets/2e034e06-495e-4c71-967a-62d4fcd8ef79)
+
 
 
 Lo puedes probar aquí:  
